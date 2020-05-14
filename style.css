@@ -1,0 +1,94 @@
+body{
+    background-color: black;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    background-image: url("https://wallpapercan.com/download/1920x1080/be885e51/lines-colorful-pattern-abstract.jpg");
+    margin: 60px auto;
+}
+#calculator{
+    width: 350px;
+    height: 500px;
+    background-color: gray;
+    margin: auto;
+    top: 30px;
+    position: relative;
+    box-shadow:black;
+    border-radius: 20px;
+
+}
+#result{
+    height: 100px;
+    margin: 0px 10px;
+    
+}
+#history{
+    text-align: right;
+    height: 20px;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0 20px;
+    color:rgb(rgb(73, 33, 33), rgb(20, 39, 20), rgb(20, 20, 39));
+    padding-top: 5px;
+
+}
+#output{
+    text-align: right;
+    font-size:30px;
+    font-family: sans-serif;
+    height: 50px;
+    margin: 10px 20px;
+    font-weight: bolder;
+
+
+}
+#keyboard{
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+.operator,.number,.empty{
+    float: left;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 15px;
+    float: left;
+    border-width: 0;
+    font-weight: bolder;
+    font-size: 18px;
+    
+}
+.number,.empty{
+    background-color: grey;
+    font-size: 20px;
+}
+.number,.operator{
+    cursor: pointer;
+}
+.number:hover,.operator:hover{
+    font-size: 150%;
+}
+.number:active,.empty:active,.operator:active{
+    font-size: 50%;
+    outline: 0;
+}
+.operator:focus,.number:focus,.empty:focus{
+    outline: 0;
+
+}
+button:nth-child(4){
+    background-color: orangered;
+}
+button:nth-child(8){
+    background-color:lightseagreen
+}
+button:nth-child(12){
+    background-color:rgb(38, 155, 38)
+}
+button:nth-child(16){
+    background-color: rgb(180, 25, 134)
+}
+button:nth-child(20){
+    background-color: rgb(165, 22, 22)
+}
